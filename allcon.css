@@ -1,0 +1,81 @@
+table {
+    font-size: 60px;
+    border: 1px;
+    font-family: serif;
+    align-content: center;
+}
+
+table a:link {
+    color: rgba(255, 153, 153, 0.685);
+}
+
+table a:hover {
+    color: rgba(0, 88, 44, 0.411);
+}
+
+body {
+    background-color: #001e1d;
+    color: white;
+    background-image: url(astro.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background: cover 100% 100%;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color: #e4ff00;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+ul li {
+    float: left;
+    padding-left: 2in;
+}
+
+ul li a {
+    display: block;
+    color: chocolate;
+    margin: .5em;
+    padding: 10px 20px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+p:first-letter {
+    font-size: 20px;
+    color: gold;
+}
+
+a:link {
+    padding: .10em;
+    color: rgba(16, 255, 195, 0.781);
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lightgrey;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.cp {
+    border: 0;
+    padding: 1px;
+    background-color: aqua;
+    color: crimson;
+    text-align: right;
+}

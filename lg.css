@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: maroon;
+    background-image: url(sea.jpg);
+    background: cover no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 320px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 223, 224, 0.311);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.box h1 {
+    border-bottom: 3px solid rgba(183, 247, 66, 0.87);
+    font-size: xx-large;
+    font-family: cursive;
+    width: 40%;
+    margin-bottom: 50px;
+    padding: 10px 0;
+}
+
+.in2 input {
+    color: midnightblue;
+    text-align: center;
+    width: 70%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(253, 0, 0, 0.493);
+    outline: none;
+    margin-bottom: 50px;
+}
+
+.bt {
+    width: 100%;
+    background: none;
+    border: none;
+    border: 1px solid greenyellow;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/*for suc. page*/
+
+p {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    width: 520px;
+    height: 150px;
+    left: 50%;
+    top: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 223, 224, 0.311);
+    padding: 30px;
+    margin: 50px;
+    border-radius: 20px;
+}

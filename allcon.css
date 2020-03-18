@@ -1,25 +1,32 @@
-table {
-    font-size: 60px;
-    border: 1px;
-    font-family: serif;
-    align-content: center;
-}
-
-table a:link {
-    color: rgba(255, 153, 153, 0.685);
-}
-
-table a:hover {
-    color: rgba(0, 88, 44, 0.411);
-}
-
 body {
     background-color: #001e1d;
     color: white;
     background-image: url(astro.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background: cover 100% 100%;
+    background: cover;
+}
+
+header {
+    background-color: rgb(68, 8, 6);
+}
+
+.box {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    border: 1px;
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+}
+
+.box a:link {
+    color: rgba(255, 153, 153, 0.525);
+}
+
+.box a:hover {
+    color: rgba(43, 27, 8, 0.911)
 }
 
 h1 {
@@ -31,6 +38,7 @@ h1 {
 }
 
 ul {
+    //background-color: gray;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -40,14 +48,18 @@ ul {
 
 ul li {
     float: left;
-    padding-left: 2in;
+    padding-left: 1.8in;
 }
 
-ul li a {
-    display: block;
-    color: chocolate;
+ul li a:link {
+    display: flex;
+    color: rgb(248, 104, 37);
     margin: .5em;
     padding: 10px 20px;
+}
+
+ul li a:visited {
+    color: lightyellow;
 }
 
 p {
@@ -62,7 +74,7 @@ p:first-letter {
 
 a:link {
     padding: .10em;
-    color: rgba(16, 255, 195, 0.781);
+    color: rgba(16, 255, 195, 0.481);
     text-decoration: none;
 }
 
